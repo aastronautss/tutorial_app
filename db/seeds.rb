@@ -1,3 +1,9 @@
+User.create!(name: "Tyler Guillen",
+             email: "tyler@tylerguillen.org",
+             password:              "foobar",
+             password_confirmation: "foobar",
+             admin: true)
+
 User.create!(name:  "Example User",
              email: "example@railstutorial.org",
              password:              "foobar",
